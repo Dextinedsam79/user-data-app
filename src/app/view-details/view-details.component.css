@@ -1,0 +1,57 @@
+.cover-photo{
+    background-image: url("https://img.freepik.com/free-photo/3d-rendering-hexagonal-texture-background_23-2150796440.jpg?size=626&ext=jpg&ga=GA1.1.1081711293.1694664522&semt=ais");
+    min-height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.profile-picture{
+    position: absolute;
+    top: 160px;
+    left: 90px;
+    
+}
+.profile-picture img{
+    border-radius: 50%;
+    border: 10px solid white;
+    background-color:rgb(3, 37, 38);
+    width: 250px;
+    height: 250px;
+}
+
+.blue-text{
+    color: rgb(8, 8, 99);
+}
+
+.cover{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.profile-text{
+    margin-top: 80px;
+    padding-left: 80px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid rgb(210, 206, 206);
+}
+
+.location{
+    padding-left: 30px;
+    padding-top: 50px;
+    border: 1px solid rgb(210, 206, 206);
+}
+.company-details{
+    display: flex;
+}
+
+.comp{
+    margin-left: 40px;
+}
+
+
+@media only screen and (max-width: 568px) {
+    .cover{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
